@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	display: inline-block;
+	position: relative;
+}
+
+.clr,
+.clr::after{
+	clear: both;
+}
+
+.clr::before,
+.clr::after{
+	content: "";
+	display: table;
+}
+
+.dots{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: #ccc;
+	border-radius: 50%;
+}
